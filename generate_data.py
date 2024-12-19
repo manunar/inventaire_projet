@@ -2,7 +2,6 @@ import csv
 import random
 from faker import Faker
 
-
 def generate_fake_inventory(output_file, num_records):
     fake = Faker()
     categories = ['Électronique', 'Alimentation', 'Vêtements', 'Mobilier', 'Jouets']
